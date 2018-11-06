@@ -5,11 +5,11 @@ using UnityEngine;
 public class PlayerBlink : MonoBehaviour {
 
     public GameObject teleBall;
-    public TeleBall teleBallScript;
     public float blinkDistance;
     public float blinkCooldownTime;
     public int clickDelay;
 
+    TeleBall teleBallScript;
     SpriteRenderer m_SpriteRenderer;
     Rigidbody2D rigidbody2D;
 
