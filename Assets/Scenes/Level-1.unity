@@ -1991,6 +1991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blinkDistance: 2
+  blinkCooldownTime: 60
 --- !u!1 &1770174401
 GameObject:
   m_ObjectHideFlags: 0
