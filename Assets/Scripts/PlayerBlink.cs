@@ -58,20 +58,22 @@ public class PlayerBlink : MonoBehaviour {
         if (!teleBallOut && Input.GetMouseButtonUp(1) && clickTimer == 0)
         {
             teleBallOut = true;
-            teleBallScript.setInvisible(false);
-            //teleBall.Throw();
+            teleBallScript.setInvisible(true);
+            teleBallScript.throwTeleBall(transform.position);
             clickTimer = clickDelay;
         }
         else if (teleBallOut && Input.GetMouseButtonUp(1) && clickTimer == 0)
         {
             teleBallOut = false;
-            //teleportToTeleBall();
-            teleBallScript.setInvisible(true);
+            teleportToTeleBall();
+            teleBallScript.setInvisible(false);
             clickTimer = clickDelay;
         }
+    }
 
-
-        
+    void teleportToTeleBall()
+    {
+        transform.position = teleBall.transform.position;
     }
 
     void handleBlink()
