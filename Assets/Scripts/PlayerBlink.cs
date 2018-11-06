@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class PlayerBlink : MonoBehaviour {
 
+    public GameObject teleBall;
+    public TeleBall teleBallScript;
     public float blinkDistance;
     public float blinkCooldownTime;
+    public int clickDelay;
 
     SpriteRenderer m_SpriteRenderer;
-    //The Color to be assigned to the Renderer’s Material
-
     Rigidbody2D rigidbody2D;
+
+    int clickTimer = 0;
+    bool teleBallOut = false;
     bool movingRight = false;
     bool movingLeft = false;
     float blinkCooldownTimer = 0;
@@ -21,12 +25,20 @@ public class PlayerBlink : MonoBehaviour {
 
         //Fetch the SpriteRenderer from the GameObject
         m_SpriteRenderer = GetComponent<SpriteRenderer>();
-        
+        teleBallScript = teleBall.GetComponent<TeleBall>();
         rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update () {
+        handleDirection();
+        handleTeleport();
+        handleBlink();
+        handleClickDelay();
+	}
+
+    void handleDirection()
+    {
         if (rigidbody2D.velocity.x < 0)
         {
             movingLeft = true;
@@ -39,7 +51,31 @@ public class PlayerBlink : MonoBehaviour {
             movingRight = true;
             m_SpriteRenderer.flipX = true;
         }
+    }
 
+    void handleTeleport()
+    {
+        if (!teleBallOut && Input.GetMouseButtonUp(1) && clickTimer == 0)
+        {
+            teleBallOut = true;
+            teleBallScript.setInvisible(false);
+            //teleBall.Throw();
+            clickTimer = clickDelay;
+        }
+        else if (teleBallOut && Input.GetMouseButtonUp(1) && clickTimer == 0)
+        {
+            teleBallOut = false;
+            //teleportToTeleBall();
+            teleBallScript.setInvisible(true);
+            clickTimer = clickDelay;
+        }
+
+
+        
+    }
+
+    void handleBlink()
+    {
         if (Input.GetMouseButtonDown(0) && blinkCooldownTimer == 0)
         {
             blink();
@@ -47,7 +83,7 @@ public class PlayerBlink : MonoBehaviour {
         }
         cooldownVisuals();
         blinkCooldown();
-	}
+    }
 
     void blink()
     {
@@ -76,5 +112,11 @@ public class PlayerBlink : MonoBehaviour {
         else
             m_SpriteRenderer.color = new Color(1, 1, 1);
 
+    }
+
+    void handleClickDelay()
+    {
+        if (clickTimer != 0)
+            clickTimer--;
     }
 }
