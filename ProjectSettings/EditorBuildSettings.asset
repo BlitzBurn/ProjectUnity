@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level-2.unity
     guid: 8be7ec222e12e8544a3d4b1f76dbee32
+  - enabled: 1
+    path: Assets/Scenes/Level-3.unity
+    guid: 6d5384bbb9027ac42966cdccf9a5e2f1
+  - enabled: 1
+    path: Assets/Scenes/HowToPlay-blink.unity
+    guid: a12222ff1a999d947867dbb7e6ee65fa
   m_configObjects: {}
