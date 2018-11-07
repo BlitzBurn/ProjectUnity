@@ -2175,7 +2175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 085bda7dd02007c4c960db87016ec9d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  teleBall: {fileID: 0}
+  teleBall: {fileID: 1919897820823072, guid: 708772253015caf42b7abed19bc6747e, type: 2}
   blinkDistance: 2
   blinkCooldownTime: 60
   clickDelay: 0

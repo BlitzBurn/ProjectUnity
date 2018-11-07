@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HowToPlay-blink.unity
     guid: a12222ff1a999d947867dbb7e6ee65fa
+  - enabled: 1
+    path: Assets/Scenes/GameOverScreen.unity
+    guid: d48c8e7e6af042a4b8e3de39efce5ab9
   m_configObjects: {}
