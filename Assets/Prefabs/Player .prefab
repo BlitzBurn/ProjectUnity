@@ -26,7 +26,6 @@ GameObject:
   - component: {fileID: 114943693379814758}
   - component: {fileID: 114040467679982864}
   - component: {fileID: 114834277510924778}
-  - component: {fileID: 114278530731172804}
   m_Layer: 8
   m_Name: 'Player '
   m_TagString: Player
@@ -105,18 +104,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sidesOffset: 0.47
   coyoteTiming: 6
---- !u!114 &114278530731172804
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1022695790818254}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3afade6069cdcf349acee1d8bcafdafd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  immune: 0
 --- !u!114 &114357842606915500
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -143,6 +130,7 @@ MonoBehaviour:
   blinkDistance: 2
   blinkCooldownTime: 60
   clickDelay: 10
+  immunityTime: 0
 --- !u!114 &114943693379814758
 MonoBehaviour:
   m_ObjectHideFlags: 1
