@@ -130,7 +130,7 @@ MonoBehaviour:
   blinkDistance: 2
   blinkCooldownTime: 60
   clickDelay: 10
-  immunityTime: 0
+  immunityTime: 8
 --- !u!114 &114943693379814758
 MonoBehaviour:
   m_ObjectHideFlags: 1
