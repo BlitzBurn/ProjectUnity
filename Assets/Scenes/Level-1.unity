@@ -186,7 +186,7 @@ Transform:
   m_LocalScale: {x: 4.574, y: 4.729, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &113473802
 GameObject:
@@ -198,9 +198,9 @@ GameObject:
   - component: {fileID: 113473803}
   - component: {fileID: 113473805}
   - component: {fileID: 113473804}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_1 (10)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -216,7 +216,7 @@ Transform:
   m_LocalScale: {x: 0.9561479, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1899898117}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &113473804
 BoxCollider2D:
@@ -299,9 +299,9 @@ GameObject:
   - component: {fileID: 262665529}
   - component: {fileID: 262665531}
   - component: {fileID: 262665530}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_1 (1)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -400,9 +400,9 @@ GameObject:
   - component: {fileID: 497639707}
   - component: {fileID: 497639709}
   - component: {fileID: 497639708}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_1 (18)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -418,7 +418,7 @@ Transform:
   m_LocalScale: {x: 0.35704672, y: 3.185372, z: 1.2430037}
   m_Children: []
   m_Father: {fileID: 1899898117}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: -180.475, y: -179.993, z: 0}
 --- !u!61 &497639708
 BoxCollider2D:
@@ -501,9 +501,9 @@ GameObject:
   - component: {fileID: 688425016}
   - component: {fileID: 688425018}
   - component: {fileID: 688425017}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_1 (14)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -519,7 +519,7 @@ Transform:
   m_LocalScale: {x: 1.0000004, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1899898117}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &688425017
 BoxCollider2D:
@@ -602,9 +602,9 @@ GameObject:
   - component: {fileID: 689868310}
   - component: {fileID: 689868312}
   - component: {fileID: 689868311}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_1 (15)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -620,7 +620,7 @@ Transform:
   m_LocalScale: {x: 1.0000004, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1899898117}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &689868311
 BoxCollider2D:
@@ -703,9 +703,9 @@ GameObject:
   - component: {fileID: 771070444}
   - component: {fileID: 771070446}
   - component: {fileID: 771070445}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_1 (7)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -716,12 +716,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 771070443}
-  m_LocalRotation: {x: -0.00006113775, y: 0.0041450323, z: -0.9999914, w: -0.0000002534201}
-  m_LocalPosition: {x: 0.986, y: -1.267, z: -0.01}
-  m_LocalScale: {x: 0.35704672, y: 3.1842196, z: 1.2425641}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.229262, y: -0.15264727, z: 0.012963926}
+  m_LocalScale: {x: 1, y: 0.99981946, z: 0.9998234}
   m_Children: []
-  m_Father: {fileID: 1899898117}
-  m_RootOrder: 7
+  m_Father: {fileID: 2125078347}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -180.475, y: -179.993, z: 0}
 --- !u!61 &771070445
 BoxCollider2D:
@@ -867,7 +867,7 @@ Transform:
   m_LocalScale: {x: 4.561, y: 4.844, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &820231798
 GameObject:
@@ -879,9 +879,9 @@ GameObject:
   - component: {fileID: 820231799}
   - component: {fileID: 820231801}
   - component: {fileID: 820231800}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_1 (6)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1009,6 +1009,26 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114748134031355134, guid: 708772253015caf42b7abed19bc6747e,
+        type: 2}
+      propertyPath: ballSpeed
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 50678525122728400, guid: 708772253015caf42b7abed19bc6747e,
+        type: 2}
+      propertyPath: m_UseFullKinematicContacts
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 50678525122728400, guid: 708772253015caf42b7abed19bc6747e,
+        type: 2}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 50678525122728400, guid: 708772253015caf42b7abed19bc6747e,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 708772253015caf42b7abed19bc6747e, type: 2}
   m_IsPrefabAsset: 0
@@ -1022,9 +1042,9 @@ GameObject:
   - component: {fileID: 911491993}
   - component: {fileID: 911491995}
   - component: {fileID: 911491994}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_1 (12)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1040,7 +1060,7 @@ Transform:
   m_LocalScale: {x: 1.0000004, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1899898117}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &911491994
 BoxCollider2D:
@@ -1212,9 +1232,9 @@ GameObject:
   - component: {fileID: 1005267538}
   - component: {fileID: 1005267537}
   - component: {fileID: 1005267539}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_7
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1276,7 +1296,7 @@ Transform:
   m_LocalScale: {x: 0.3778728, y: 0.4348399, z: 2.2068}
   m_Children: []
   m_Father: {fileID: 1899898117}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1005267539
 BoxCollider2D:
@@ -1313,9 +1333,9 @@ GameObject:
   - component: {fileID: 1124050258}
   - component: {fileID: 1124050260}
   - component: {fileID: 1124050259}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_1 (4)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1414,9 +1434,9 @@ GameObject:
   - component: {fileID: 1128547877}
   - component: {fileID: 1128547879}
   - component: {fileID: 1128547878}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_1 (3)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1505,52 +1525,192 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &1171297617
-Prefab:
+--- !u!1 &1210058151
+GameObject:
   m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1022695790818254, guid: 70a93b66614187e48a279d36a7252a9e,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1210058160}
+  - component: {fileID: 1210058159}
+  - component: {fileID: 1210058158}
+  - component: {fileID: 1210058157}
+  - component: {fileID: 1210058156}
+  - component: {fileID: 1210058155}
+  - component: {fileID: 1210058154}
+  - component: {fileID: 1210058153}
+  m_Layer: 8
+  m_Name: 'Player '
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1210058153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114834277510924778, guid: 70a93b66614187e48a279d36a7252a9e,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1210058151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 085bda7dd02007c4c960db87016ec9d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleBall: {fileID: 1710116014}
+  blinkDistance: 2
+  blinkCooldownTime: 60
+  clickDelay: 10
+  immunityTime: 8
+--- !u!114 &1210058154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114040467679982864, guid: 70a93b66614187e48a279d36a7252a9e,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1210058151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 803436f1f67363c4daa77782d0844add, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sidesOffset: 0.47
+  coyoteTiming: 6
+--- !u!114 &1210058155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114943693379814758, guid: 70a93b66614187e48a279d36a7252a9e,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1210058151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48ba261097a25a949b018aade3ae93b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!50 &1210058156
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 50858505977752194, guid: 70a93b66614187e48a279d36a7252a9e,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1210058151}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &1210058157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114357842606915500, guid: 70a93b66614187e48a279d36a7252a9e,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1210058151}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1210058158
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 61783705237423132, guid: 70a93b66614187e48a279d36a7252a9e,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1210058151}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0006735958, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.09, y: 0.11}
+    newSize: {x: 0.22, y: 0.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4682283289739004, guid: 708772253015caf42b7abed19bc6747e, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -9.760913
-      objectReference: {fileID: 0}
-    - target: {fileID: 4682283289739004, guid: 708772253015caf42b7abed19bc6747e, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 5.805661
-      objectReference: {fileID: 0}
-    - target: {fileID: 4682283289739004, guid: 708772253015caf42b7abed19bc6747e, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4682283289739004, guid: 708772253015caf42b7abed19bc6747e, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4682283289739004, guid: 708772253015caf42b7abed19bc6747e, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4682283289739004, guid: 708772253015caf42b7abed19bc6747e, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4682283289739004, guid: 708772253015caf42b7abed19bc6747e, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4682283289739004, guid: 708772253015caf42b7abed19bc6747e, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1919897820823072, guid: 708772253015caf42b7abed19bc6747e, type: 2}
-      propertyPath: m_Name
-      value: TeleBall (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 708772253015caf42b7abed19bc6747e, type: 2}
-  m_IsPrefabAsset: 0
+  m_Size: {x: 0.110877626, y: 0.1}
+  m_EdgeRadius: 0
+--- !u!212 &1210058159
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 212531682232658526, guid: 70a93b66614187e48a279d36a7252a9e,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1210058151}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300056, guid: 3f9f0af9071431a47a4b18f0dcbcc626, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 1
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.22, y: 0.3}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1210058160
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4189460917421800, guid: 70a93b66614187e48a279d36a7252a9e,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1210058151}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.5166106, y: 1.8248557, z: 0}
+  m_LocalScale: {x: 4.5952854, y: 4.5952854, z: 4.5952854}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1251264948
 GameObject:
   m_ObjectHideFlags: 0
@@ -1561,9 +1721,9 @@ GameObject:
   - component: {fileID: 1251264949}
   - component: {fileID: 1251264951}
   - component: {fileID: 1251264950}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_1 (13)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1579,7 +1739,7 @@ Transform:
   m_LocalScale: {x: 1.0000004, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1899898117}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1251264950
 BoxCollider2D:
@@ -1662,9 +1822,9 @@ GameObject:
   - component: {fileID: 1361710859}
   - component: {fileID: 1361710858}
   - component: {fileID: 1361710857}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_1
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1763,9 +1923,9 @@ GameObject:
   - component: {fileID: 1373397353}
   - component: {fileID: 1373397352}
   - component: {fileID: 1373397351}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_7 (2)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1852,7 +2012,7 @@ Transform:
   m_LocalScale: {x: 0.3778728, y: 0.4348399, z: 2.2068}
   m_Children: []
   m_Father: {fileID: 1899898117}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1575010902
 GameObject:
@@ -1927,7 +2087,7 @@ Transform:
   m_LocalScale: {x: 4.703, y: 4.96, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1630157798
 GameObject:
@@ -1939,9 +2099,9 @@ GameObject:
   - component: {fileID: 1630157801}
   - component: {fileID: 1630157800}
   - component: {fileID: 1630157799}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_7 (1)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2028,7 +2188,7 @@ Transform:
   m_LocalScale: {x: 0.29252338, y: 0.4348399, z: 2.2068}
   m_Children: []
   m_Father: {fileID: 1899898117}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1679968655
 GameObject:
@@ -2040,9 +2200,9 @@ GameObject:
   - component: {fileID: 1679968656}
   - component: {fileID: 1679968658}
   - component: {fileID: 1679968657}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_1 (19)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2058,7 +2218,7 @@ Transform:
   m_LocalScale: {x: 0.35704672, y: 3.1859467, z: 1.2432237}
   m_Children: []
   m_Father: {fileID: 1899898117}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: -180.475, y: -179.993, z: 0}
 --- !u!61 &1679968657
 BoxCollider2D:
@@ -2227,184 +2387,13 @@ Transform:
   m_LocalScale: {x: 4.716, y: 4.868, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1722925500
+--- !u!1 &1710116014 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1722925507}
-  - component: {fileID: 1722925506}
-  - component: {fileID: 1722925505}
-  - component: {fileID: 1722925504}
-  - component: {fileID: 1722925503}
-  - component: {fileID: 1722925502}
-  - component: {fileID: 1722925501}
-  - component: {fileID: 1722925508}
-  m_Layer: 8
-  m_Name: 'Player '
-  m_TagString: Player
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1722925501
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1722925500}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 803436f1f67363c4daa77782d0844add, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sidesOffset: 0.47
-  coyoteTiming: 6
---- !u!114 &1722925502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1722925500}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48ba261097a25a949b018aade3ae93b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!50 &1722925503
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1722925500}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
---- !u!114 &1722925504
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1722925500}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a655cdc6f7d7d3f4bba9b3ea3f31dc51, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!61 &1722925505
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1722925500}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.0006735958, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.09, y: 0.11}
-    newSize: {x: 0.22, y: 0.3}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.110877626, y: 0.1}
-  m_EdgeRadius: 0
---- !u!212 &1722925506
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1722925500}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300056, guid: 3f9f0af9071431a47a4b18f0dcbcc626, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.22, y: 0.3}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1722925507
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1722925500}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.59, y: 1.39, z: 0}
-  m_LocalScale: {x: 4.5952854, y: 4.5952854, z: 4.5952854}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1722925508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1722925500}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 085bda7dd02007c4c960db87016ec9d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  teleBall: {fileID: 1919897820823072, guid: 708772253015caf42b7abed19bc6747e, type: 2}
-  blinkDistance: 2
-  blinkCooldownTime: 60
-  clickDelay: 1
+  m_CorrespondingSourceObject: {fileID: 1919897820823072, guid: 708772253015caf42b7abed19bc6747e,
+    type: 2}
+  m_PrefabInternal: {fileID: 905590401}
 --- !u!1 &1770174401
 GameObject:
   m_ObjectHideFlags: 0
@@ -2415,9 +2404,9 @@ GameObject:
   - component: {fileID: 1770174402}
   - component: {fileID: 1770174404}
   - component: {fileID: 1770174403}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_1 (16)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2433,7 +2422,7 @@ Transform:
   m_LocalScale: {x: 1.0000004, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1899898117}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1770174403
 BoxCollider2D:
@@ -2516,9 +2505,9 @@ GameObject:
   - component: {fileID: 1794558224}
   - component: {fileID: 1794558226}
   - component: {fileID: 1794558225}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_1 (9)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2534,7 +2523,7 @@ Transform:
   m_LocalScale: {x: 0.35704672, y: 3.185372, z: 1.2430037}
   m_Children: []
   m_Father: {fileID: 1899898117}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: -180.475, y: -179.993, z: 0}
 --- !u!61 &1794558225
 BoxCollider2D:
@@ -2617,9 +2606,9 @@ GameObject:
   - component: {fileID: 1801919842}
   - component: {fileID: 1801919844}
   - component: {fileID: 1801919843}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_1 (11)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2635,7 +2624,7 @@ Transform:
   m_LocalScale: {x: 1.0000004, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1899898117}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1801919843
 BoxCollider2D:
@@ -2718,9 +2707,9 @@ GameObject:
   - component: {fileID: 1812051925}
   - component: {fileID: 1812051927}
   - component: {fileID: 1812051926}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_1 (5)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2819,9 +2808,9 @@ GameObject:
   - component: {fileID: 1853444149}
   - component: {fileID: 1853444151}
   - component: {fileID: 1853444150}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_1 (2)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2984,7 +2973,6 @@ Transform:
   - {fileID: 1124050258}
   - {fileID: 1812051925}
   - {fileID: 820231799}
-  - {fileID: 771070444}
   - {fileID: 2125078347}
   - {fileID: 1794558224}
   - {fileID: 113473803}
@@ -3001,7 +2989,7 @@ Transform:
   - {fileID: 1630157801}
   - {fileID: 1373397353}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2019779465
 GameObject:
@@ -3013,9 +3001,9 @@ GameObject:
   - component: {fileID: 2019779466}
   - component: {fileID: 2019779468}
   - component: {fileID: 2019779467}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_1 (17)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3031,7 +3019,7 @@ Transform:
   m_LocalScale: {x: 1.0000004, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1899898117}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2019779467
 BoxCollider2D:
@@ -3216,7 +3204,7 @@ Transform:
   m_LocalScale: {x: 62.291508, y: 47.916546, z: 47.916546}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2125078346
 GameObject:
@@ -3228,9 +3216,9 @@ GameObject:
   - component: {fileID: 2125078347}
   - component: {fileID: 2125078349}
   - component: {fileID: 2125078348}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_1 (8)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3244,9 +3232,10 @@ Transform:
   m_LocalRotation: {x: -0.00006113775, y: 0.0041450323, z: -0.9999914, w: -0.0000002534201}
   m_LocalPosition: {x: -0.167, y: -1.753, z: -0.03}
   m_LocalScale: {x: 0.35704672, y: 3.184795, z: 1.2427837}
-  m_Children: []
+  m_Children:
+  - {fileID: 771070444}
   m_Father: {fileID: 1899898117}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: -180.475, y: -179.993, z: 0}
 --- !u!61 &2125078348
 BoxCollider2D:

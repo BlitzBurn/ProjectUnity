@@ -8,16 +8,19 @@ public class PlayerBlink : MonoBehaviour {
     public float blinkDistance;
     public float blinkCooldownTime;
     public int clickDelay;
+    public int immunityTime;
 
     TeleBall teleBallScript;
     SpriteRenderer m_SpriteRenderer;
     Rigidbody2D rigidbody2D;
 
     int clickTimer = 0;
+    bool immune;
     bool teleBallOut = false;
     bool movingRight = false;
     bool movingLeft = false;
     float blinkCooldownTimer = 0;
+    int immunityTimer = 0;
 
 
     // Use this for initialization
@@ -35,6 +38,7 @@ public class PlayerBlink : MonoBehaviour {
         handleTeleport();
         handleBlink();
         handleClickDelay();
+        handleImmunity();
 	}
 
     void handleDirection()
@@ -58,21 +62,23 @@ public class PlayerBlink : MonoBehaviour {
         if (!teleBallOut && Input.GetMouseButtonUp(1) && clickTimer == 0)
         {
             teleBallOut = true;
-            teleBallScript.setInvisible(true);
-            teleBallScript.throwTeleBall(transform.position);
+            teleBallScript.setInvisible(false);
+            teleBallScript.throwTeleBall(transform.position, movingRight);
             clickTimer = clickDelay;
         }
         else if (teleBallOut && Input.GetMouseButtonUp(1) && clickTimer == 0)
         {
             teleBallOut = false;
             teleportToTeleBall();
-            teleBallScript.setInvisible(false);
+            teleBallScript.setInvisible(true);
             clickTimer = clickDelay;
         }
     }
 
     void teleportToTeleBall()
     {
+        immunityTimer = immunityTime;
+        immune = true;
         transform.position = teleBall.transform.position;
     }
 
@@ -89,6 +95,8 @@ public class PlayerBlink : MonoBehaviour {
 
     void blink()
     {
+        immunityTimer = immunityTime;
+        immune = true;
         if (movingLeft)
         {
             transform.position -= new Vector3(blinkDistance, 0, 0);
@@ -121,4 +129,29 @@ public class PlayerBlink : MonoBehaviour {
         if (clickTimer != 0)
             clickTimer--;
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            if (!immune)
+            {
+                Destroy(this.gameObject);
+                //go to gameOverScreen
+            }
+            else if (immune)
+            {
+                Destroy(collision.gameObject);
+            }
+        }
+    }
+
+    void handleImmunity()
+    {
+        if (immunityTimer != 0)
+            immunityTimer--;
+        else
+            immune = false;
+    }
+
 }
