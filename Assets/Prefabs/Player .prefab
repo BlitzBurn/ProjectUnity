@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4189460917421800}
   - component: {fileID: 212531682232658526}
   - component: {fileID: 61783705237423132}
-  - component: {fileID: 114357842606915500}
   - component: {fileID: 50858505977752194}
   - component: {fileID: 114943693379814758}
   - component: {fileID: 114040467679982864}
@@ -104,17 +103,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sidesOffset: 0.47
   coyoteTiming: 6
---- !u!114 &114357842606915500
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1022695790818254}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a655cdc6f7d7d3f4bba9b3ea3f31dc51, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114834277510924778
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -128,9 +116,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   teleBall: {fileID: 1919897820823072, guid: 708772253015caf42b7abed19bc6747e, type: 2}
   blinkDistance: 2
-  blinkCooldownTime: 60
-  clickDelay: 10
-  immunityTime: 8
+  blinkCooldownTime: 1
+  clickDelay: 0.1
+  immunityTime: 0.2
+  despawnTime: 1
 --- !u!114 &114943693379814758
 MonoBehaviour:
   m_ObjectHideFlags: 1

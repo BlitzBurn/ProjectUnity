@@ -7,20 +7,24 @@ public class PlayerBlink : MonoBehaviour {
     public GameObject teleBall;
     public float blinkDistance;
     public float blinkCooldownTime;
-    public int clickDelay;
-    public int immunityTime;
+    public float clickDelay;
+    public float immunityTime;
+    public float despawnTime;
 
     TeleBall teleBallScript;
     SpriteRenderer m_SpriteRenderer;
     Rigidbody2D rigidbody2D;
 
-    int clickTimer = 0;
-    bool immune;
+
+    bool immune = false;
     bool teleBallOut = false;
     bool movingRight = false;
     bool movingLeft = false;
+
     float blinkCooldownTimer = 0;
-    int immunityTimer = 0;
+    float immunityTimer = 0;
+    float clickTimer = 0;
+    float despawnTimer = 0;
 
 
     // Use this for initialization
@@ -37,7 +41,6 @@ public class PlayerBlink : MonoBehaviour {
         handleDirection();
         handleTeleport();
         handleBlink();
-        handleClickDelay();
         handleImmunity();
 	}
 
@@ -59,19 +62,26 @@ public class PlayerBlink : MonoBehaviour {
 
     void handleTeleport()
     {
-        if (!teleBallOut && Input.GetMouseButtonUp(1) && clickTimer == 0)
+        if (!teleBallOut && Input.GetMouseButtonUp(1) && Time.time - clickTimer > clickDelay)
         {
             teleBallOut = true;
             teleBallScript.setInvisible(false);
             teleBallScript.throwTeleBall(transform.position, movingRight);
-            clickTimer = clickDelay;
+            clickTimer = Time.time;
+            despawnTimer = Time.time;
         }
-        else if (teleBallOut && Input.GetMouseButtonUp(1) && clickTimer == 0)
+        else if (teleBallOut && Input.GetMouseButtonUp(1) && Time.time - clickTimer > clickDelay)
         {
             teleBallOut = false;
             teleportToTeleBall();
             teleBallScript.setInvisible(true);
-            clickTimer = clickDelay;
+            clickTimer = Time.time;
+        }
+
+        if (Time.time - despawnTimer > despawnTime)
+        {
+            teleBallOut = false;
+            teleBallScript.setInvisible(true);
         }
     }
 
@@ -84,18 +94,16 @@ public class PlayerBlink : MonoBehaviour {
 
     void handleBlink()
     {
-        if (Input.GetMouseButtonDown(0) && blinkCooldownTimer == 0)
+        if (Input.GetMouseButtonDown(0) &&  Time.time - blinkCooldownTimer > blinkCooldownTime)
         {
             blink();
-            blinkCooldownTimer = blinkCooldownTime;
+            blinkCooldownTimer = Time.time;
         }
-        cooldownVisuals();
-        blinkCooldown();
     }
 
     void blink()
     {
-        immunityTimer = immunityTime;
+        immunityTimer = Time.time;
         immune = true;
         if (movingLeft)
         {
@@ -107,27 +115,12 @@ public class PlayerBlink : MonoBehaviour {
         }
     }
 
-    void blinkCooldown()
-    {
-        if (blinkCooldownTimer != 0)
-        {
-            blinkCooldownTimer--;
-        }
-    }
-
     void cooldownVisuals()
     {
         if (blinkCooldownTimer != 0)
             m_SpriteRenderer.color = new Color(1 - blinkCooldownTimer/blinkCooldownTime, 0, 0);
         else
             m_SpriteRenderer.color = new Color(1, 1, 1);
-
-    }
-
-    void handleClickDelay()
-    {
-        if (clickTimer != 0)
-            clickTimer--;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -137,7 +130,7 @@ public class PlayerBlink : MonoBehaviour {
             if (!immune)
             {
                 Destroy(this.gameObject);
-                //go to gameOverScreen
+                Application.LoadLevel("GameOverScreen");
             }
             else if (immune)
             {
@@ -148,9 +141,7 @@ public class PlayerBlink : MonoBehaviour {
 
     void handleImmunity()
     {
-        if (immunityTimer != 0)
-            immunityTimer--;
-        else
+        if (Time.time - immunityTimer > immunityTime)
             immune = false;
     }
 

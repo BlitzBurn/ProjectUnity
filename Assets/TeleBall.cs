@@ -20,7 +20,7 @@ public class TeleBall : MonoBehaviour {
 
         m_SpriteRenderer.enabled = false;
 
-        // Bit shift the index of the layer (8) to get a bit mask
+        // Bit shift the index of the layer (9) to get a bit mask
         layerMask = 1 << 9;
         // This will cast rays only against colliders in layer 9.
        
