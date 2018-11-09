@@ -1,0 +1,603 @@
+fileFormatVersion: 2
+guid: 813e81b68d18bcf4c82da8eef64e341c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GoopeySpriteSheet_0
+    21300002: GoopeySpriteSheet_1
+    21300004: GoopeySpriteSheet_2
+    21300006: GoopeySpriteSheet_3
+    21300008: GoopeySpriteSheet_4
+    21300010: GoopeySpriteSheet_5
+    21300012: GoopeySpriteSheet_6
+    21300014: GoopeySpriteSheet_7
+    21300016: GoopeySpriteSheet_8
+    21300018: GoopeySpriteSheet_9
+    21300020: GoopeySpriteSheet_10
+    21300022: GoopeySpriteSheet_11
+    21300024: GoopeySpriteSheet_12
+    21300026: GoopeySpriteSheet_13
+    21300028: GoopeySpriteSheet_14
+    21300030: GoopeySpriteSheet_15
+    21300032: GoopeySpriteSheet_16
+    21300034: GoopeySpriteSheet_17
+    21300036: GoopeySpriteSheet_18
+    21300038: GoopeySpriteSheet_19
+    21300040: GoopeySpriteSheet_20
+    21300042: GoopeySpriteSheet_21
+    21300044: GoopeySpriteSheet_22
+    21300046: GoopeySpriteSheet_23
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GoopeySpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 139
+        width: 9
+        height: 10
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a2276e40ff93041b514242a7fca5c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoopeySpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 139
+        width: 9
+        height: 10
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d45748e64268d4da14969ed5d03be7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoopeySpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 139
+        width: 9
+        height: 10
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504c8e299fd6feb40bd6d55c0760aefb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoopeySpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 139
+        width: 9
+        height: 10
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2ae0bc23cc3f949815dd901505e58f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoopeySpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 139
+        width: 9
+        height: 11
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2651087bef1753479f4aade8c868b9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoopeySpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 107
+        width: 9
+        height: 11
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff8f9c90f70bc94c9b835a3dd0b60f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoopeySpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 107
+        width: 9
+        height: 11
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcba20054c3d0d449a7b757755bca64d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoopeySpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 107
+        width: 9
+        height: 11
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f7c238db4d745419fe4792fdc0c48f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoopeySpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 107
+        width: 8
+        height: 12
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efd8408f7d0867419e3e5d5da7fb5d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoopeySpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 107
+        width: 8
+        height: 12
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61541e791ae05934b9b537d0aa997c56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoopeySpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 75
+        width: 8
+        height: 12
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae1bd7acc671e844bf001cb32244cf7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoopeySpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 75
+        width: 8
+        height: 12
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb40196fd894454e8f8a919f1be014b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoopeySpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 75
+        width: 9
+        height: 11
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4494a8a551feac41bd786685eb917fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoopeySpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 75
+        width: 9
+        height: 11
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b40c7cd2e37c849a5a126cd0add796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoopeySpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 75
+        width: 9
+        height: 11
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb88d253cd904194892321e778135d42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoopeySpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 43
+        width: 9
+        height: 11
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc6346d98c345349b5bcff25d117cf1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoopeySpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 43
+        width: 9
+        height: 10
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682af9a372cec404aaf921868c53bdd5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoopeySpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 43
+        width: 9
+        height: 10
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5122aaf74f9954ba292b4b8030bd7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoopeySpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 43
+        width: 9
+        height: 10
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a301f3d48d9fc744d986770e797b272d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoopeySpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 43
+        width: 9
+        height: 10
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae732b1d78419b4d8255b815763ef1a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoopeySpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 11
+        width: 9
+        height: 9
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85021e79bcf31e4d9bcf8550ca75918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoopeySpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 11
+        width: 9
+        height: 9
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcd6c45297f73346a1ff673c02b5d50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoopeySpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 11
+        width: 9
+        height: 9
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941a583e3f9021648aaa6c531dc282b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoopeySpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 11
+        width: 9
+        height: 9
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be57b6cc1867717438d68f59dc1ab922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0e07b936eab38cf4f8bdc1ea547b0bef
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

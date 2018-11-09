@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameOverScreen.unity
     guid: d48c8e7e6af042a4b8e3de39efce5ab9
+  - enabled: 1
+    path: Assets/Scenes/Level-4.unity
+    guid: 74011ed67c506d14ca71f76600d221d7
+  - enabled: 1
+    path: Assets/Scenes/HowToPlayLongBlink.unity
+    guid: 92a3f4ecb86a42444b7b3612baa711da
   m_configObjects: {}
