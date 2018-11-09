@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HowToPlayLongBlink.unity
     guid: 92a3f4ecb86a42444b7b3612baa711da
+  - enabled: 1
+    path: Assets/Scenes/About.unity
+    guid: c60af3d3df220754baf0feee5c0e8182
   m_configObjects: {}
