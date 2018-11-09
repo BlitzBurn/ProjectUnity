@@ -118,7 +118,7 @@ MonoBehaviour:
   blinkDistance: 2
   blinkCooldownTime: 1
   clickDelay: 0.1
-  immunityTime: 0.2
+  immunityTime: 0.5
   despawnTime: 1
 --- !u!114 &114943693379814758
 MonoBehaviour:
