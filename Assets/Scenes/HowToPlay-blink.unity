@@ -113,6 +113,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &144480460 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1919897820823072, guid: 708772253015caf42b7abed19bc6747e,
+    type: 2}
+  m_PrefabInternal: {fileID: 908455370}
 --- !u!1 &203556045
 GameObject:
   m_ObjectHideFlags: 0
@@ -298,7 +303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 085bda7dd02007c4c960db87016ec9d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  teleBall: {fileID: 0}
+  teleBall: {fileID: 144480460}
   blinkDistance: 2
   blinkCooldownTime: 60
   clickDelay: 0
@@ -763,7 +768,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 864048118}
   m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
-  m_LocalPosition: {x: 1.71, y: -4.96, z: 0}
+  m_LocalPosition: {x: 1.71, y: -4.96, z: -1}
   m_LocalScale: {x: 5.0057, y: 5.0057, z: 5.0057}
   m_Children: []
   m_Father: {fileID: 0}
@@ -991,7 +996,7 @@ GameObject:
   - component: {fileID: 1228641606}
   - component: {fileID: 1228641605}
   - component: {fileID: 1228641607}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1092,7 +1097,7 @@ GameObject:
   - component: {fileID: 1299605929}
   - component: {fileID: 1299605928}
   - component: {fileID: 1299605930}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_7 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1294,7 +1299,7 @@ GameObject:
   - component: {fileID: 1341904143}
   - component: {fileID: 1341904145}
   - component: {fileID: 1341904144}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_7 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1542,7 +1547,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: -97}
+  m_AnchoredPosition: {x: -0, y: -79}
   m_SizeDelta: {x: 160, y: 40.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2105926176
@@ -1671,7 +1676,7 @@ GameObject:
   - component: {fileID: 2145011417}
   - component: {fileID: 2145011416}
   - component: {fileID: 2145011415}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: New Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}

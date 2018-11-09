@@ -966,7 +966,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 085bda7dd02007c4c960db87016ec9d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  teleBall: {fileID: 1919897820823072, guid: 708772253015caf42b7abed19bc6747e, type: 2}
+  teleBall: {fileID: 1782999207}
   blinkDistance: 2
   blinkCooldownTime: 60
   clickDelay: 10
@@ -2457,7 +2457,7 @@ GameObject:
   - component: {fileID: 1701484728}
   - component: {fileID: 1701484727}
   - component: {fileID: 1701484726}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: New Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2560,6 +2560,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1782999207 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1919897820823072, guid: 708772253015caf42b7abed19bc6747e,
+    type: 2}
+  m_PrefabInternal: {fileID: 654569572}
 --- !u!1 &1792325015
 GameObject:
   m_ObjectHideFlags: 0
