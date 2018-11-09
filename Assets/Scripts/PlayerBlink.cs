@@ -87,7 +87,7 @@ public class PlayerBlink : MonoBehaviour {
 
     void teleportToTeleBall()
     {
-        immunityTimer = immunityTime;
+        immunityTimer = Time.time;
         immune = true;
         transform.position = teleBall.transform.position;
     }
