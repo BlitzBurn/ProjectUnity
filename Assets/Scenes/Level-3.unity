@@ -2858,7 +2858,7 @@ GameObject:
   - component: {fileID: 988638204}
   - component: {fileID: 988638203}
   - component: {fileID: 988638202}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4242,7 +4242,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1458960888}
   - component: {fileID: 1458960887}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5835,7 +5835,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1963060315}
   - component: {fileID: 1963060314}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_17 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5941,7 +5941,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2012973011}
   - component: {fileID: 2012973010}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: jungle tileset_17 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
