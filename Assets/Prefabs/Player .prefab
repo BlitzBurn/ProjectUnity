@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 803436f1f67363c4daa77782d0844add, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sidesOffset: 0.47
+  sidesOffset: 0.22
   coyoteTiming: 6
 --- !u!114 &114834277510924778
 MonoBehaviour:
