@@ -30,15 +30,12 @@ public class TeleBall : MonoBehaviour {
         if (directionRight && Physics2D.Raycast(transform.position, new Vector2(1, 0), 0.3f, layerMask))
         {
             speed = 0;
-
         }
         else if(!directionRight && Physics2D.Raycast(transform.position, new Vector2(-1,0), 0.3f, layerMask))
         {
             speed = 0;
         }
 
-
-        
         speed *= deAcceleration;
         rigidbody2D.velocity = new Vector2(speed, 0);
         
