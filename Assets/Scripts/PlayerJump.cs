@@ -50,8 +50,8 @@ public class PlayerJump : MonoBehaviour
 
         //testRayCastSize(); 
 
-        return Physics2D.Raycast(transform.position - new Vector3(sidesOffset, 0, 0), transform.TransformDirection(Vector3.down), 1, layerMask) || 
-            Physics2D.Raycast(transform.position + new Vector3(sidesOffset, 0, 0), transform.TransformDirection(Vector3.down), 1, layerMask);
+        return Physics2D.Raycast(transform.position - new Vector3(sidesOffset, 0, 0), transform.TransformDirection(Vector3.down), 0.3f, layerMask) || 
+            Physics2D.Raycast(transform.position + new Vector3(sidesOffset, 0, 0), transform.TransformDirection(Vector3.down), 0.3f, layerMask);
     }
 
     void testRayCastSize()

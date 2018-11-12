@@ -5,8 +5,6 @@ using UnityEngine;
 public class PlayerBlink : MonoBehaviour {
 
     public GameObject teleBall;
-    public float blinkDistance;
-    public float blinkCooldownTime;
     public float clickDelay;
     public float immunityTime;
     public float despawnTime;
@@ -21,7 +19,6 @@ public class PlayerBlink : MonoBehaviour {
     bool movingRight = false;
     bool movingLeft = false;
 
-    float blinkCooldownTimer = 0;
     float immunityTimer = 0;
     float clickTimer = 0;
     float despawnTimer = 0;
@@ -29,18 +26,15 @@ public class PlayerBlink : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-
         //Fetch the SpriteRenderer from the GameObject
         m_SpriteRenderer = GetComponent<SpriteRenderer>();
         teleBallScript = teleBall.GetComponent<TeleBall>();
         rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update () {
         handleDirection();
         handleTeleport();
-        handleBlink();
         handleImmunity();
 	}
 
@@ -92,6 +86,7 @@ public class PlayerBlink : MonoBehaviour {
         transform.position = teleBall.transform.position;
     }
 
+    /* Old ability that was removed
     void handleBlink()
     {
         if (Input.GetMouseButtonDown(0) &&  Time.time - blinkCooldownTimer > blinkCooldownTime)
@@ -100,7 +95,7 @@ public class PlayerBlink : MonoBehaviour {
             blinkCooldownTimer = Time.time;
         }
     }
-
+  
     void blink()
     {
         immunityTimer = Time.time;
@@ -114,7 +109,7 @@ public class PlayerBlink : MonoBehaviour {
             transform.position += new Vector3(blinkDistance, 0, 0);
         }
     }
-
+   
     void cooldownVisuals()
     {
         if (blinkCooldownTimer != 0)
@@ -122,6 +117,7 @@ public class PlayerBlink : MonoBehaviour {
         else
             m_SpriteRenderer.color = new Color(1, 1, 1);
     }
+    */
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -138,6 +134,7 @@ public class PlayerBlink : MonoBehaviour {
             }
         }
     }
+    
 
     void handleImmunity()
     {
